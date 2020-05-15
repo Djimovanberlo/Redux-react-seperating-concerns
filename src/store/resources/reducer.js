@@ -17,7 +17,7 @@ const initialState = [
   },
 ];
 
-export default function userSliceReducer(state = initialState, action) {
+export default function resourcesSliceReducer(state = initialState, action) {
   switch (action.type) {
     default: {
       return state;

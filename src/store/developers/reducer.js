@@ -4,7 +4,7 @@ const initialState = [
   { id: 3, name: "Lady", favorites: [1, 2, 3, 6] },
 ];
 
-export default function userSliceReducer(state = initialState, action) {
+export default function developersSliceReducer(state = initialState, action) {
   switch (action.type) {
     default: {
       return state;
